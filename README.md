@@ -1,4 +1,4 @@
-# Leetcode-Datastruct
+# Leetcode-Datastructure
 
 ## Individual description
 自己在校大三，有学业任务以及项目，所以Task1没有全部完成，完成了Leetcode的练习以及写了一个单链表。
