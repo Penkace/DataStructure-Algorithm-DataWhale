@@ -16,9 +16,10 @@ leetcode每道题的解题思路在每个cpp文档的开头**Solution**部分，
           &emsp;&emsp;&emsp;&emsp;&emsp;4. Majority Element.cpp<br>
           &emsp;&emsp;&emsp;&emsp;&emsp;5. Mergoe k sorted Lists.cpp<br>
           &emsp;&emsp;&emsp;&emsp;&emsp;6. Two Sum.cpp<br>
--2019-2-28 完成双向链表和循环链表的编写，双向链表实现了创建、删除某个值的结点、插入结点等操作以及查找中间结点;
+-2019-2-28 完成双向链表和循环链表的编写，双向链表实现了创建、删除某个值的结点、插入结点等操作以及查找中间结点;<br>
           &emsp;&emsp;&emsp;&emsp;&emsp;1. DoubleL.cpp<br>
-          &emsp;&emsp;&emsp;&emsp;&emsp;2. CirList.cpp & CirList.h
+          &emsp;&emsp;&emsp;&emsp;&emsp;2. CirList.cpp & CirList.h<br>
+     
 ## Special Note
 1. leetcode141.First Missing Positive 题解我写在了CSDN，[leetcode141题解](https://blog.csdn.net/qq_42034665/article/details/87968009);
 2. 单链表linklist写在**Linklist.cpp**文件中，主要实现list的**创建、删除、打印**，并且在单链表中实现里**链表翻转和合并k个链表**，可以在自己的编译器上输出结果；
