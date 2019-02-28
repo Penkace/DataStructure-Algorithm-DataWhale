@@ -70,6 +70,7 @@ void deletedoubleList(ListNode* head) {
 // 在链表的某一点插入结点
 ListNode* insertinLink(ListNode* head, int i,int val) {
 	ListNode* dummyhead = new ListNode(0);
+	dummyhead->next = head;
 	ListNode* cur = dummyhead;
 	// 先找到第i-1个结点处
 	for (int j = 0; j<i; j++) {
@@ -87,6 +88,24 @@ ListNode* insertinLink(ListNode* head, int i,int val) {
 	return retNode;
 }
 
+class Solution {
+public:
+	// 查找中间结点，我采用的思路是快慢指针，当快指针的下一个节点是NULL时，那么此时的slow指针指向的就是中间结点；
+	ListNode* searchmidnode(ListNode* head) {
+		ListNode* dummyhead = new ListNode(0);
+		dummyhead->next = head;
+		ListNode* fast = dummyhead->next;
+		ListNode* slow = dummyhead->next;
+		// 至少有两个结点才有中间结点
+		while (fast->next != NULL&& fast->next->next!=NULL) {
+			fast = fast->next->next;
+			slow = slow->next;
+		}
+		delete dummyhead;
+		return slow;
+	}
+};
+
 int main() {
 	int arr[] = { 1,2,3,4,5,6 };
 	// 这样求链表长度的好处是，如果更改了数组的内容，我们只需要修改数组的内容
@@ -94,4 +113,9 @@ int main() {
 	ListNode *head = createdoublelist(arr, n);
 	printdoubleList(head);
 
+	ListNode *midNode = Solution().searchmidnode(head);
+	cout << midNode->val << endl;
+	deletedoubleList(head);
+	delete midNode;
+	return 0;
 }
