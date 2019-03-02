@@ -23,7 +23,11 @@
 -2019-3-1  今天上下午满课，并且项目今天有大量数据分析，所以只写了一个顺序栈和模拟网页前进后退的练习<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;1. Sqstack.cpp<br>
   &emsp;&emsp;&emsp;&emsp;&emsp;2. 模拟网页前进后退<br>
-  
+
+-2019-3-2 完成了链式栈及链式栈的插入删除判空等操作，并且用自己写的链式栈完成了模拟网页前进后退的练习<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;1. Linklist.hpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. linkstacktest.cpp<br>
+ 
 ## Special Note
 1. leetcode141.First Missing Positive 题解我写在了CSDN，[leetcode141题解](https://blog.csdn.net/qq_42034665/article/details/87968009);
 2. 单链表linklist写在**Linklist.cpp**文件中，主要实现list的**创建、删除、打印**，并且在单链表中实现里**链表翻转和合并k个链表**，可以在自己的编译器上输出结果；
