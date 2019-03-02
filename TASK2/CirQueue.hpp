@@ -1,3 +1,6 @@
+/*****************************************************************************
+	Reference: https://blog.csdn.net/EckelWei/article/details/8634829
+*****************************************************************************/
 template<typename T>
 class CirQueue {
 private:
