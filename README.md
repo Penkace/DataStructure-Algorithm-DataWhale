@@ -24,9 +24,11 @@
  &emsp;&emsp;&emsp;&emsp;&emsp;1. Sqstack.cpp<br>
   &emsp;&emsp;&emsp;&emsp;&emsp;2. 模拟网页前进后退<br>
 
--2019-3-2 完成了链式栈及链式栈的插入删除判空等操作，并且用自己写的链式栈完成了模拟网页前进后退的练习<br>
- &emsp;&emsp;&emsp;&emsp;&emsp;1. Linklist.hpp<br>
+-2019-3-2 完成了链式栈及链式栈的插入删除判空等操作，并且用自己写的链式栈完成了模拟网页前进后退的练习;完成一个链式队列<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;1. Linkstack.hpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;2. linkstacktest.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. LinkQueue.hpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. LinkQueuetest.cpp<br>
  
 ## Special Note
 1. leetcode141.First Missing Positive 题解我写在了CSDN，[leetcode141题解](https://blog.csdn.net/qq_42034665/article/details/87968009);
