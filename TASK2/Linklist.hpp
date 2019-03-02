@@ -2,6 +2,7 @@ template<class T>
 class LinkStack {
 private:
 	int NodeNum;// 表示栈的长度
+	// Node 包含data ， next指向stack中的下一个元素
 	struct Node {
 		T data;
 		Node *next;
@@ -20,28 +21,33 @@ public:
 
 template<class T>
 LinkStack<T>::LinkStack() {
+	// 构造函数，初始化top栈顶和NodeNum长度
 	this->NodeNum = 0;
 	this->top = NULL;
 }
 
 template<class T>
 LinkStack<T>::~LinkStack() {
+	// 析构函数
 	this->clear();
 }
 
 template<class T>
 int LinkStack<T>::size() {
+	// 返回记录长度的NodeNum
 	return NodeNum;
 }
 
 template<class T>
 bool LinkStack<T>::isEmpty() {
+	// 判断是否为空，top表示栈顶结点
 	return top == NULL;
 }
 
 template<class T>
 void LinkStack<T>::clear() {
 	Node *temp;
+	// 清理结点，释放内存
 	while (top != NULL) {
 		temp = top;
 		top = top->next;
@@ -74,6 +80,7 @@ T LinkStack<T>::pop() {
 		return 0;
 	}
 	else {
+		// 删除结点并返回值
 		temp = top;
 		top = top->next;
 		tmp = temp->data;
