@@ -32,6 +32,15 @@
  &emsp;&emsp;&emsp;&emsp;&emsp;5. CirQueue.hpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;6. CirQueuetest.cpp<br>
  
+-2019-3-3 完成Leetcode的练习<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;1. Valid Parentheses.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. Longest Valid Parentheses.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;3. Evaluate Reverse Polish Notatio.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;4. Design Circular Deque.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;5. Sliding Window Maximum.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;6. Climbing Stairs.cpp<br>
+ 
+ 
 ## Special Note
 1. leetcode141.First Missing Positive 题解我写在了CSDN，[leetcode141题解](https://blog.csdn.net/qq_42034665/article/details/87968009);
 2. 单链表linklist写在**Linklist.cpp**文件中，主要实现list的**创建、删除、打印**，并且在单链表中实现里**链表翻转和合并k个链表**，可以在自己的编译器上输出结果；
