@@ -39,7 +39,16 @@
  &emsp;&emsp;&emsp;&emsp;&emsp;4. Design Circular Deque.cpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;5. Sliding Window Maximum.cpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;6. Climbing Stairs.cpp<br>
- 
+
+-2019-3-4 今天帮一个朋友写知网的爬虫，没有写任务. 小爬虫开源的, 有需要的朋友可以拿去用, 主要抓取知网某个主题下的文章标题和日期<br>
+
+-2019-3-5 完成常见的排序算法，在完成任务给的算法的同时，还复习了其他几种排序算法<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;1. Valid Parentheses.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. Longest Valid Parentheses.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;3. Evaluate Reverse Polish Notatio.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;4. Design Circular Deque.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;5. Sliding Window Maximum.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;6. Climbing Stairs.cpp<br>
  
 ## Special Note
 1. leetcode141.First Missing Positive 题解我写在了CSDN，[leetcode141题解](https://blog.csdn.net/qq_42034665/article/details/87968009);
