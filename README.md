@@ -5,9 +5,9 @@
 因为自己之前上过刘宇波老师的算法课，所以对TASK中的算法题目有一定的思路，其编程的思想都有所了解。
 
 <br>
-&emsp;&emsp;leetcode每道题的解题思路在每个cpp文档的开头**Solution**部分，主要思想都有说明;
+&emsp;&emsp;leetcode每道题的解题思路在每个cpp文档的开头"Solution"部分，主要思想都有说明;
 <br>
-&emsp;&emsp;写数据结构的时候采用比较简洁的方法，把更多的精力放在**数据结构及其不同操作实现的思想**上。<br>
+&emsp;&emsp;写数据结构的时候采用比较简洁的方法，把更多的精力放在"数据结构及其不同操作实现的思想"上。<br>
 -2019-2-27 完成单链表的编写，实现一定的功能，并且完成所有的Leetcode练习;
 <br>
           &emsp;&emsp;&emsp;&emsp;&emsp;1. 3Sum.cpp<br>
@@ -52,6 +52,8 @@
  &emsp;&emsp;&emsp;&emsp;&emsp;7. 翻转插入排序.cpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;8. 选择排序.cpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;9. 选择排序从小到大排序.cpp<br>
+ 
+ -2019-3-8 科研项目DDL快到了，在收尾，这几天比较忙，陆陆续续完成TASK4.<br>
  
  
 ## Special Note
