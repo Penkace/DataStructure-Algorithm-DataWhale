@@ -1,8 +1,6 @@
 struct TrieNode {
     TrieNode() {
-        for (int i=0;i<256;i++) {
-            mData[i] = NULL;
-        }
+        memset(mData,0,sizeof(mData);
         mWord = false;
     }
     
