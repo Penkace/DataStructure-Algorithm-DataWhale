@@ -7,7 +7,7 @@
 <br>
 &emsp;&emsp;leetcode每道题的解题思路在每个cpp文档的开头"Solution"部分，主要思想都有说明;
 <br>
-&emsp;&emsp;写数据结构的时候采用比较简洁的方法，把更多的精力放在"数据结构及其不同操作实现的思想"上。<br>
+写数据结构的时候采用比较简洁的方法，把更多的精力放在**数据结构及其不同操作实现的思想**。<br>
 -2019-2-27 完成单链表的编写，实现一定的功能，并且完成所有的Leetcode练习;
 <br>
           &emsp;&emsp;&emsp;&emsp;&emsp;1. 3Sum.cpp<br>
@@ -54,6 +54,16 @@
  &emsp;&emsp;&emsp;&emsp;&emsp;9. 选择排序从小到大排序.cpp<br>
  
  -2019-3-8 科研项目DDL快到了，在收尾，这几天比较忙，陆陆续续完成TASK4.<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;1. hash table introduction.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. Simple Hash实现.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;3. Reverse String.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;4. 实现LRU缓存算法.cpp<br>
+ 
+ -2019-3-9 把TASK4的任务先补上<br>
+   &emsp;&emsp;&emsp;&emsp;&emsp;1. Trie Tree.hpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;2. Trie tree-Leetcode.cpp<br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;3. kmpalgorithm.cpp<br>
+
  
  
 ## Special Note
@@ -63,5 +73,7 @@
 4. 循环链表看了严薇敏老师的数据结构C语言版，然后参考[数据结构（3）单循环链表 c++ 模板实现](https://blog.csdn.net/natsu1211/article/details/9412397)学习实践了答主的写法。<br>
 5. 今天看了一个博主的C++编写方式，自己参考学习了，不再像之前写linklist那样写数据结构，而是用**template模板类**来实现，在头文件写好各操作（其实上课的时候也是用这种方式，但是我当时眼界狭隘就没有参照那张写法，没有深入体会template的作用）。<br>
 6. Climbing Stairs这类递归的题目如果不能剪枝容易出TLE，所以能推DP就推DP，自己在不断的摸索中。<br>
-
-
+7. 之前学习KMP的时候还没DP，现在回看发现用DP的思想去理解KMP十分易懂。<br>
+8. 前缀树的实现，先要建立strcut或者是class，定义TrieNode，TrieNode里面包含字符串中可能出现的所有字符的数量的数组和一个单词结尾的标记，然后通过结点去构造一个字典树并且完成插入和查找的操作。在leetcode上测试Trie的操作是发现，在对TrieNode中数组进行初始化时采用memset比for循环稍微快一些，但是memset有需要注意的地方。
+9. memset是按照字节对待初始化空间进行初始化的，函数里面的第二个参数的初值（一般为0）是按照一个一个字节往第一个参数所指区域填充的，所以，对于单字节数据类型（char）可以初始化为任意支持的值。多字节数据类型只能初始化为0，而不能初始化成其他值，**因为对所有字节按任意顺序赋值0的结果都是0**，非0的结果，比如说int一般是4个字节，那么相当于将一个int元素初始化成了0000 0001 0000 0001 0000 0001 0000 0001，这样对于一个int元素肯定不是1，而是一个很大的数
+。
