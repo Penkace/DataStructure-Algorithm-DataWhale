@@ -1,5 +1,5 @@
-#include<iostream>
 #include<stdio.h>
+#include<iostream>
 #include<string>
 #include<stdlib.h>
 using namespace std;
@@ -58,10 +58,19 @@ void kmp_search(char text[], char pattern[]) {
 			printf("Find pattern at %d\n", i - j);
 			// 为了匹配所有的pattern，设置j = prefix[j]继续匹配
 			j = prefix[j];
+			if (j == -1) {
+				j = 0;
+			}
 		}
-		// 如果字符匹配，直接ij向后移动
+		// 如果字符匹配，直接ij向后移动.再考虑一种情况，如果当前匹配了，但是pattern长度为1，如都i++,j++那么j的读取会越界
+		// 所以我们要加一个判断，如果j==n-1，则只移动i，这是针对pattern为1的情况
 		if (text[i] == pattern[j]) {
-			i++; j++;
+			if (j == n - 1) {
+				i++;
+			}
+			else {
+				i++; j++;
+			}
 		}
 		// 如果当前ij下pattern和text不匹配
 		else {
@@ -75,7 +84,7 @@ void kmp_search(char text[], char pattern[]) {
 	}
 }
 int main() {
-	char pattern[] = "ABABCABAA";
+	char pattern[] = "A";
 	char text[] = "ABABABCABAABABABAB";
 	kmp_search(text, pattern);	
 	/*int prefix[9];
