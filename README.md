@@ -63,6 +63,14 @@
    &emsp;&emsp;&emsp;&emsp;&emsp;1. Trie Tree.hpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;2. Trie tree-Leetcode.cpp<br>
  &emsp;&emsp;&emsp;&emsp;&emsp;3. kmpalgorithm.cpp<br>
+ 
+ -2019-3-10 除了优先队列的部分都完成了,Leetcode上关于树的遍历是用非递归方式完成的，其他的都是用递归的思想完成的<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;1. BinaryTree.hpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;2. Invert Binary Tree.cpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;3. Maximum Depth of Binary Tree.cpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;4. Path Sum.cpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;5. TreeTraverse including preorder, inorder, postorder and levelorder.cpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;6. Validate Binary Search Tree.cpp<br>
 
  
  
@@ -78,3 +86,4 @@
 9. memset是按照字节对待初始化空间进行初始化的，函数里面的第二个参数的初值（一般为0）是按照一个一个字节往第一个参数所指区域填充的，所以，对于单字节数据类型（char）可以初始化为任意支持的值。多字节数据类型只能初始化为0，而不能初始化成其他值，**因为对所有字节按任意顺序赋值0的结果都是0**，非0的结果，比如说int一般是4个字节，那么相当于将一个int元素初始化成了0000 0001 0000 0001 0000 0001 0000 0001，这样对于一个int元素肯定不是1，而是一个很大的数
 。
 10. 进一步学习KMP算法，体会到了该算法的精妙之处，于是写了一个程序更进一步体会其中的奥妙.在[KMP算法代码](https://github.com/Penkace/DataStructure-Algorithm-DataWhale/blob/master/TASK4/KMP%E7%AE%97%E6%B3%95C%2B%2B%E5%AE%9E%E7%8E%B0.cpp)<br>
+11. 在实现二叉树的时候花了2个多小时，不仅质疑自己之前的学习效率...（蒟蒻的成长之路）
