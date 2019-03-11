@@ -72,8 +72,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;5. TreeTraverse including preorder, inorder, postorder and levelorder.cpp<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;6. Validate Binary Search Tree.cpp<br>
 
--2019-3-11 完成了多个排序好的列表的从小到大合并<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;1. Merge k Sorted Lists<br>
+-2019-3-11 完成了多个排序好的列表的从小到大合并，之前看《啊哈！算法》的时候用C实现过堆，今天用C++来实现，不过时间不够只能参考其他人的博客了...<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;1. Merge k Sorted Lists.cpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;2. MaxHeap.hpp<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;3. MaxHeaptest.cpp<br>
  
  
 ## Special Note
