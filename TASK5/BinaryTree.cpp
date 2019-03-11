@@ -1,4 +1,4 @@
-//下面将用数据的形式来生成二叉树
+//下面将用数据的形式来生成二叉树,还没有Debug
 #include<iostream>
 #include<algorithm>
 #include<queue>
