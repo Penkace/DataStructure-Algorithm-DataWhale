@@ -72,6 +72,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;5. TreeTraverse including preorder, inorder, postorder and levelorder.cpp<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;6. Validate Binary Search Tree.cpp<br>
 
+-2019-3-11 完成了多个排序好的列表的从小到大合并<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;1. Merge k Sorted Lists<br>
  
  
 ## Special Note
