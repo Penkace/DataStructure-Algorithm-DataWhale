@@ -76,6 +76,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;1. Merge k Sorted Lists.cpp<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;2. MaxHeap.hpp<br>
 &emsp;&emsp;&emsp;&emsp;&emsp;3. MaxHeaptest.cpp<br>
+
+-2019-6-4 隔了差不多三个月，今天更新了TASK8中的顺序标部分,参考王道数据结构教材，实现了几个链表的功能<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;1. SeqList.cpp<br>
  
  
 ## Special Note
